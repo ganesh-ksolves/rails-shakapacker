@@ -7,9 +7,16 @@
     "@babel/core": "7",
     "@babel/plugin-transform-runtime": "7",
     "@babel/preset-env": "7",
+    "@babel/preset-react": "^7.27.1",
     "@babel/runtime": "7",
     "babel-loader": "8",
+    "babel-plugin-macros": "^3.1.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "compression-webpack-plugin": "9",
+    "prop-types": "^15.8.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-on-rails": "13.1.0",
     "shakapacker": "6.5.2",
     "terser-webpack-plugin": "5",
     "webpack": "5",
@@ -26,5 +33,9 @@
   },
   "browserslist": [
     "defaults"
-  ]
+  ],
+  "devDependencies": {
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.6.1",
+    "react-refresh": "^0.17.0"
+  }
 }
