@@ -52,4 +52,4 @@ group :test do
 end
 
 gem 'react_on_rails', '13.1.0' # prefer exact gem version to match npm version
-gem 'shakapacker', '6.5.2' # prefer exact gem version to match npm version
+gem 'shakapacker', '8.3.0' # prefer exact gem version to match npm version
