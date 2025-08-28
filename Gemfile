@@ -51,5 +51,5 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem 'react_on_rails', '13.1.0' # prefer exact gem version to match npm version
+gem 'react_on_rails', '15.0.0' # prefer exact gem version to match npm version
 gem 'shakapacker', '6.5.2' # prefer exact gem version to match npm version
