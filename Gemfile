@@ -6,7 +6,7 @@ gem "rails", "~> 7.2.2", ">= 7.2.2.1"
 gem "sprockets-rails"
 # Use sqlite3 as the database for Active Record
 # gem "sqlite3", ">= 1.4"
-gem "pg", "~> 1.2" # Use PostgreSQL as the database for Active Record
+gem "pg", "~> 1.6" # Use PostgreSQL as the database for Active Record
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
